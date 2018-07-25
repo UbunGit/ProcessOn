@@ -133,14 +133,14 @@ class Runlop():
 if __name__ == '__main__':
 
 
-    url = "https://www.processon.com/i/5b57f34ae4b0edb750e966c3";
+    #url = "https://www.processon.com/i/5b57f34ae4b0edb750e966c3";
     print("======ProcessOn 邀请增加文件数量======")
     print("|     根据提示：                     |")
     print("|     1：输入你的邀请链接             |")
     print("|     2：手动处理ProcessOn注册验证    |")
     print("===================================")
     print("  请输入你的邀请链接:")
-    # url = raw_input()
+    url = raw_input()
     try:
         runlop = Runlop(url)
     except Exception as e:
